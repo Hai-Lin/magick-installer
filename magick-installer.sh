@@ -36,7 +36,7 @@ cd ../..
 
 tar xzvf freetype-2.4.3.tar.gz
 cd freetype-2.4.3
-./configure --prefix=/usr/local --disable-openmp
+./configure --prefix=/usr/local 
 make clean
 make
 sudo make install
